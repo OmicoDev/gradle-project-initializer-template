@@ -1,10 +1,12 @@
 versions:
-  consensus: "0.2.0"
+  consensus: "0.3.0"
   gradle: "8.2.1"
   kotlin: "1.9.0"
   spotless: "6.20.0"
 
 repositories:
+  omico:
+    url: "https://maven.omico.me"
   mavenCentral:
   gradlePluginPortal:
 
@@ -12,14 +14,14 @@ plugins:
   gradlePluginPortal:
     com.diffplug.spotless: ${versions.spotless}
     org.jetbrains.kotlin.jvm: ${versions.kotlin}
-  mavenCentral:
+  omico:
     me.omico.consensus.api: ${versions.consensus}
     me.omico.consensus.git: ${versions.consensus}
     me.omico.consensus.publishing: ${versions.consensus}
     me.omico.consensus.spotless: ${versions.consensus}
 
 dependencies:
-  mavenCentral:
+  omico:
     me.omico.consensus:
       consensus-dsl:
         alias: me.omico.consensus.dsl
