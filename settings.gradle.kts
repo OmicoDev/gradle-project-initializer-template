@@ -1,16 +1,9 @@
 rootProject.name = "gpi-root"
 
 pluginManagement {
-    repositories {
-        maven(url = "https://maven.omico.me")
-        mavenCentral()
-        gradlePluginPortal()
-    }
-    includeBuild("build-logic/gradm")
+    includeBuild("build-logic/initialization")
 }
 
 plugins {
-    id("gpi.gradm")
+    id("gpi")
 }
-
-includeBuild("build-logic/project")

@@ -1,5 +1,3 @@
-@file:Suppress("INLINE_FROM_HIGHER_PLATFORM")
-
 import me.omico.consensus.dsl.isGitDirectoryExists
 import me.omico.consensus.dsl.requireRootProject
 

@@ -1,4 +1,3 @@
-import me.omico.consensus.dsl.consensus
 import me.omico.consensus.dsl.requireRootProject
 
 plugins {
