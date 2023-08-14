@@ -8,9 +8,11 @@ plugins {
 
 requireRootProject()
 
-allprojects {
-    group = "me.omico.gpi"
-    version = "0.1.0-SNAPSHOT"
+consensus {
+    allprojects {
+        group = gradleProperty("project.group")
+        version = gradleProperty("project.version")
+    }
 }
 
 val wrapper: Wrapper by tasks.named<Wrapper>("wrapper") {
