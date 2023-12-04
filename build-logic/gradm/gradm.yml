@@ -1,10 +1,10 @@
 versions:
-  consensus: "0.5.0"
-  gradle: "8.4"
-  kotlin: "1.9.20"
+  consensus: "0.6.0"
+  gradle: "8.5"
+  kotlin: "1.9.21"
   plugins:
     gradle.enterprise: "3.15.1"
-    spotless: "6.22.0"
+    spotless: "6.23.3"
 
 repositories:
   omico:
