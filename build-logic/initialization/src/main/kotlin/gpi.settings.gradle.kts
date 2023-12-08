@@ -1,3 +1,4 @@
+import me.omico.gradle.initialization.includeAllSubprojectModules
 import me.omico.gradm.addDeclaredRepositories
 
 addDeclaredRepositories()
@@ -8,3 +9,5 @@ plugins {
 }
 
 includeBuild("build-logic/project")
+
+includeAllSubprojectModules("gpi")
