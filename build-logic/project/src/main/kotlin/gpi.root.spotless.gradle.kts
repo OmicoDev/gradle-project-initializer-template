@@ -17,14 +17,9 @@ consensus {
             kotlin(
                 targets = ConsensusSpotlessTokens.Kotlin.targets + setOf(
                     "build-logic/**/src/main/kotlin/**/*.kt",
-                    "build-logic/**/src/main/kotlin/**/*.kts",
                 ),
             )
-            kotlinGradle(
-                targets = ConsensusSpotlessTokens.KotlinGradle.targets + setOf(
-                    "build-logic/*/*.gradle.kts",
-                ),
-            )
+            kotlinGradle()
         }
     }
 }
