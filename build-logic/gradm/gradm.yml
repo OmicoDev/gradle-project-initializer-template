@@ -19,7 +19,6 @@ plugins:
   omico:
     me.omico.consensus.api: ${versions.consensus}
     me.omico.consensus.git: ${versions.consensus}
-    me.omico.consensus.publishing: ${versions.consensus}
     me.omico.consensus.spotless: ${versions.consensus}
 
 dependencies:
