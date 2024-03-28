@@ -1,7 +1,7 @@
 versions:
   consensus: "0.9.0"
-  gradle: "8.6"
-  kotlin: "1.9.22"
+  gradle: "8.7"
+  kotlin: "1.9.23"
   plugins:
     gradle.enterprise: "3.16.2"
     spotless: "6.25.0"
@@ -15,13 +15,17 @@ plugins:
   gradlePluginPortal:
     com.diffplug.spotless: ${versions.plugins.spotless}
     com.gradle.enterprise: ${versions.plugins.gradle.enterprise}
-    org.jetbrains.kotlin.jvm: ${versions.kotlin}
   omico:
     me.omico.consensus.api: ${versions.consensus}
     me.omico.consensus.git: ${versions.consensus}
     me.omico.consensus.spotless: ${versions.consensus}
 
 dependencies:
+  mavenCentral:
+    org.jetbrains.kotlin:
+      kotlin-gradle-plugin:
+        alias: kotlinGradlePlugin
+        version: ${versions.kotlin}
   omico:
     me.omico.consensus:
       consensus-dsl:
