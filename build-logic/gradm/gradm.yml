@@ -3,7 +3,7 @@ versions:
   gradle: "8.7"
   kotlin: "1.9.23"
   plugins:
-    gradle.enterprise: "3.16.2"
+    develocity: "3.17"
     spotless: "6.25.0"
 
 repositories:
@@ -14,7 +14,7 @@ repositories:
 plugins:
   gradlePluginPortal:
     com.diffplug.spotless: ${versions.plugins.spotless}
-    com.gradle.enterprise: ${versions.plugins.gradle.enterprise}
+    com.gradle.develocity: ${versions.plugins.develocity}
   omico:
     me.omico.consensus.api: ${versions.consensus}
     me.omico.consensus.git: ${versions.consensus}
