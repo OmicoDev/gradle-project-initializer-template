@@ -7,7 +7,8 @@ develocity {
         termsOfUseUrl = "https://gradle.com/terms-of-service"
         termsOfUseAgree = "yes"
         publishing {
-            onlyIf { !gradle.startParameter.isOffline }
+            val isOffline = providers.provider { gradle.startParameter.isOffline }
+            onlyIf { !isOffline.getOrElse(false) }
         }
     }
 }
