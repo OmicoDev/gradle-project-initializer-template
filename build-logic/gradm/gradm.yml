@@ -1,7 +1,7 @@
 versions:
   consensus: "+"
-  gradle: "8.7"
-  kotlin: "1.9.23"
+  gradle: "8.8"
+  kotlin: "2.0.0"
   plugins:
     develocity: "+"
     spotless: "+"
