@@ -1,6 +1,6 @@
 versions:
   consensus: "+"
-  gradle: "8.8"
+  gradle: "8.9"
   kotlin: "2.0.0"
   plugins:
     develocity: "+"
