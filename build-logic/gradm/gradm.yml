@@ -1,5 +1,5 @@
 versions:
-  consensus: "+"
+  consensus: "0.10.0"
   gradle: "8.9"
   kotlin: "2.0.0"
   plugins:
@@ -26,8 +26,3 @@ dependencies:
       kotlin-gradle-plugin:
         alias: kotlinGradlePlugin
         version: ${versions.kotlin}
-  omico:
-    me.omico.consensus:
-      consensus-dsl:
-        alias: me.omico.consensus.dsl
-        version: ${versions.consensus}
