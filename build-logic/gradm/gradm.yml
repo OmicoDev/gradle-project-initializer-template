@@ -1,5 +1,5 @@
 versions:
-  consensus: "0.10.0"
+  consensus: "0.11.0"
   gradle: "8.9"
   kotlin: "2.0.0"
   plugins:
@@ -18,6 +18,7 @@ plugins:
   omico:
     me.omico.consensus.api: ${versions.consensus}
     me.omico.consensus.git: ${versions.consensus}
+    me.omico.consensus.root: ${versions.consensus}
     me.omico.consensus.spotless: ${versions.consensus}
 
 dependencies:

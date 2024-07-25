@@ -1,4 +1,4 @@
-rootProject.name = "gpi-initialization"
+rootProject.name = "gpi-build-logic-initialization"
 
 pluginManagement {
     includeBuild("../gradm")
