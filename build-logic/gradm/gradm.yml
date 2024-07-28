@@ -1,5 +1,5 @@
 versions:
-  consensus: "0.11.0"
+  consensus: "0.12.0"
   gradle: "8.9"
   kotlin: "2.0.0"
   plugins:
@@ -15,11 +15,6 @@ plugins:
   gradlePluginPortal:
     com.diffplug.spotless: ${versions.plugins.spotless}
     com.gradle.develocity: ${versions.plugins.develocity}
-  omico:
-    me.omico.consensus.api: ${versions.consensus}
-    me.omico.consensus.git: ${versions.consensus}
-    me.omico.consensus.root: ${versions.consensus}
-    me.omico.consensus.spotless: ${versions.consensus}
 
 dependencies:
   mavenCentral:
@@ -27,3 +22,8 @@ dependencies:
       kotlin-gradle-plugin:
         alias: kotlinGradlePlugin
         version: ${versions.kotlin}
+  omico:
+    me.omico.consensus:
+      consensus-gradle-plugins:
+        alias: consensusGradlePlugins
+        version: ${versions.consensus}
