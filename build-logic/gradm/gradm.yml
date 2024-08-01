@@ -1,10 +1,10 @@
 versions:
-  consensus: "0.12.0"
+  consensus: "0.13.0"
   gradle: "8.9"
   kotlin: "2.0.0"
   plugins:
-    develocity: "+"
-    spotless: "+"
+    develocity: "3.17.6"
+    spotless: "7.0.0.BETA1"
 
 repositories:
   omico:
