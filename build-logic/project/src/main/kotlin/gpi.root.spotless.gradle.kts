@@ -18,6 +18,7 @@ consensus {
                 targets = ConsensusSpotlessTokens.Kotlin.targets + setOf(
                     "build-logic/**/src/main/kotlin/**/*.kt",
                 ),
+                licenseHeaderFile = rootProject.file("spotless/copyright.kt").takeIf(File::exists),
             )
             kotlinGradle()
         }
