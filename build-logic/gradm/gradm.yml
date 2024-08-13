@@ -1,5 +1,5 @@
 versions:
-  consensus: "0.13.0"
+  consensus: "0.14.0"
   gradle: "8.9"
   kotlin: "2.0.10"
   plugins:
