@@ -3,7 +3,7 @@ versions:
   gradle: "8.10"
   kotlin: "2.0.10"
   plugins:
-    develocity: "3.17.6"
+    develocity: "3.18"
     spotless: "7.0.0.BETA1"
 
 repositories:
