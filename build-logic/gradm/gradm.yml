@@ -1,7 +1,7 @@
 versions:
   consensus: "0.14.0"
   gradle: "8.10"
-  kotlin: "2.0.10"
+  kotlin: "2.0.20"
   plugins:
     develocity: "3.18"
     spotless: "7.0.0.BETA1"
