@@ -3,8 +3,8 @@ versions:
   gradle: "8.10.2"
   kotlin: "2.0.20"
   plugins:
-    develocity: "3.18.1"
-    spotless: "7.0.0.BETA1"
+    develocity: "3.18.2"
+    spotless: "7.0.0.BETA4"
 
 repositories:
   omico:

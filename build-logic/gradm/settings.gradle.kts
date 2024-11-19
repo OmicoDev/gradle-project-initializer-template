@@ -1,4 +1,4 @@
-rootProject.name = "gpi-gradm"
+rootProject.name = "gpi-build-logic-gradm"
 
 pluginManagement {
     repositories {
