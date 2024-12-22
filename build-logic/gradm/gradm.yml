@@ -1,5 +1,5 @@
 versions:
-  consensus: "0.17.0"
+  consensus: "0.17.1"
   kotlin: "2.0.20"
   plugins:
     develocity: "3.19"
