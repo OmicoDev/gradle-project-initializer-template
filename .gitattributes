@@ -18,6 +18,7 @@
 gradlew text
 proguard-rules.pro text
 yarn.lock text
+.gitmodules text
 
 *.bat text eol=crlf
 *.cmd text eol=crlf
@@ -36,3 +37,4 @@ yarn.lock text
 *.tif binary
 *.tiff binary
 *.traineddata binary
+*.webp binary
