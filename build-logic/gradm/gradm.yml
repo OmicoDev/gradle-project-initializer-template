@@ -1,9 +1,8 @@
 versions:
-  consensus: "0.17.1"
-  kotlin: "2.0.20"
+  consensus: "0.18.1"
+  kotlin: "2.0.21"
   plugins:
     develocity: "3.19"
-    spotless: "7.0.0.BETA4"
 
 repositories:
   omico:
@@ -12,7 +11,6 @@ repositories:
 
 plugins:
   gradlePluginPortal:
-    com.diffplug.spotless: ${versions.plugins.spotless}
     com.gradle.develocity: ${versions.plugins.develocity}
 
 dependencies:
