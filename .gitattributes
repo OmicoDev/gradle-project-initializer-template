@@ -15,10 +15,11 @@
 *.yml text
 .gitattributes text
 .gitignore text
+.gitmodules text
+LICENSE text
 gradlew text
 proguard-rules.pro text
 yarn.lock text
-.gitmodules text
 
 *.bat text eol=crlf
 *.cmd text eol=crlf
