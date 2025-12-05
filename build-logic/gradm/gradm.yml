@@ -1,8 +1,8 @@
 versions:
-  consensus: "0.20.2"
-  kotlin: "2.0.21"
+  consensus: "0.21.0"
+  kotlin: "2.2.20"
   plugins:
-    develocity: "4.1"
+    develocity: "4.2.2"
 
 repositories:
   omico:
