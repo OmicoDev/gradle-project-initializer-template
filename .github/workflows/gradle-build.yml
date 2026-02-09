@@ -12,10 +12,6 @@ on:
       - 'docs/**'
   workflow_dispatch:
 
-concurrency:
-  group: '${{ github.workflow }}-${{ github.ref }}'
-  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
-
 jobs:
   gradle-build:
     name: Gradle Build
@@ -28,7 +24,7 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '21'
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v5
