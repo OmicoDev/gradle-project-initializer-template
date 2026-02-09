@@ -1,10 +1,12 @@
+**/.idea/**
 .DS_Store
 .gradle/
-.idea/
 .kotlin/
-/build/
+build/
 local.properties
 
-!/.idea/detekt.xml
-!/.idea/externalDependencies.xml
-!/.idea/jsonSchemas.xml
+!**/.idea/detekt.xml
+!**/.idea/externalDependencies.xml
+!**/.idea/jsonSchemas.xml
+!**/.idea/ktlint-plugin.xml
+!**/src/**/build/**
