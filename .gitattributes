@@ -23,6 +23,7 @@
 *.xml text diff=xml
 *.yaml text diff=yaml
 *.yml text diff=yaml
+.editorconfig text
 .gitattributes text
 .gitignore text
 .gitmodules text
